@@ -23,7 +23,7 @@ STEP 6: Use zscore of to remove outliers
 # Coding and Output
 import pandas as pd
 
-data=pd.read_csv(r"C:\Users\MIRDULA\Downloads\Data_set (1).csv")
+data=pd.read_csv("D:Data_set.csv")
 
 print(data)
 
@@ -66,7 +66,7 @@ df.info()
 
 import pandas as pd
 
-data=pd.read_csv(r"C:\Users\MIRDULA\Downloads\Data_set (1).csv")
+data=pd.read_csv("D:\Data_set.csv")
 
 df=pd.DataFrame(data) 
 
